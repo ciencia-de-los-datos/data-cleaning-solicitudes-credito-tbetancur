@@ -30,4 +30,4 @@ def clean_data():
         df.monto_del_credito = df.monto_del_credito.astype(float)
         df.linea_credito=df.linea_credito.str.replace('-',' ', regex=False).str.replace('_',' ',regex=False).str.capitalize()
   
-   return df
+    return df
